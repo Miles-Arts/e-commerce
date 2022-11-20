@@ -1,3 +1,155 @@
-body {
-    background: rgb(204, 187, 187);
+/*----------Variables----------*/
+:root {
+    --bg-color: #EBEBEB;
+    --input-placeholder: #d4d4d4;
+    --input-bg: #efefef;
+    --texto-destaque: #FFFFFF;
+    --azul-destaque: #2A7AE4;
+    --bg-contacto: #EAF2FD;
 }
+
+/*------Normalize----*/
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Releway", sans-serif;
+    background-color: var(--bg-color);
+}
+
+/*------ PAtrón del Proyecto-------*/
+
+textarea:focus, input:focus {
+    box-shadow: 0 0 0 0;
+    border: 0 none;
+    outline: 0;
+}
+
+a {
+    text-decoration: none;
+    color: var(--azul-destaque);
+    font-weight: 800;
+}
+
+button {
+    cursor: pointer;
+}
+
+/*----------Header General----------*/
+
+header {
+    background-color: var(--texto-destaque);
+    padding: 32.5px 155px;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+}
+
+
+/*---------Divs del header-------*/
+
+.logo-busqueda {
+    margin-left: 175px;
+    width: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    height: 30px;
+    width: 40px;
+}
+
+.logo p {
+    font-size: 26px;
+    font-weight: bold;
+}
+
+.logo .logo-azul {
+    margin-left: 10px;
+    color: var(--azul-destaque);
+}
+
+.logo-busqueda input {
+    margin-left: 10%;
+    width: 395px;
+    height: 40px;
+    border-radius: 30px;
+    padding: 1% 3%;
+    border: none;
+    background-color: var(--input-bg);
+    background-image: url("../img/busqueda.png");
+    background-repeat: no-repeat;
+    background-position: right;
+    background-position-x: 320px;
+}
+
+.login {
+    width: 600px;
+    display: flex;
+    justify-content: end;
+}
+
+.login button {
+    width: 180px;
+    height: 50px;
+    background: none;
+    border: 1px solid var(--azul-destaque);
+}
+
+.login button:hover {
+    background-color: var(--azul-destaque);
+    color: var(--texto-destaque);
+}
+
+/*----------Banner Promocional-------------*/
+
+.destaque {
+    height: 352px;
+    background-image: url("../img/banner.png");
+    background-size: 100vw;
+    background-repeat: no-repeat;
+    padding: 32px;
+}
+
+.banner {
+    width: 750px;
+    height: 320px;
+    padding-left: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
+
+.banner h1 {
+    color: var(--texto-destaque);
+    font-size: 52px;
+    font-weight: bold;
+}
+
+.banner h4 {
+    color: var(--texto-destaque);
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.banner button {
+    background-color: var(--azul-destaque);
+    border: none;
+    color: var(--texto-destaque);
+    height: 51px;
+    width: 130px;
+}
+
+/*--------DIV en la Sección de Productos-------*/
+
+.p
