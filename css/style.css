@@ -21,11 +21,15 @@ body {
 
 /*------ Patrón del Proyecto-------*/
 
-textarea:focus,
-input:focus {
+textarea:focus, input:focus {
     box-shadow: 0 0 0 0;
     border: 0 none;
     outline: 0;
+}
+
+input::placeholder, textarea::placeholder{
+    color: var(--input-placeholder);
+    padding: 2%;
 }
 
 a {
@@ -47,8 +51,11 @@ header {
 }
 
 nav {
+    width: auto;
     display: flex;
     align-items: center;
+    margin-bottom: 5px;
+    /*justify-content: center;*/
 }
 
 
@@ -120,7 +127,7 @@ nav {
 .destaque {
     height: 352px;
     background-image: url("../img/banner.png");
-    background-size: 100Vw;
+    background-size: 100vw;
     background-repeat: no-repeat;
     padding: 32px;
 }
@@ -285,4 +292,12 @@ nav {
     color: var(--texto-destaque);
     height: 51px;
     width: 180px;
+}
+
+.footer {
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
 }
