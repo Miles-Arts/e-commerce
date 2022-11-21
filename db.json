@@ -1,10 +1,14 @@
 
 {
-    "perfil": [
+    "producto": [
       {
-        "nombre": "Milton Figueredo",
-        "email": "miltonfigueredo@miles-arts.com",
-        "id": 1
+        "name": "Alura",
+        "imageUrl": "https://raw.githubusercontent.com/Miles-Arts/e-commerce/main/img/taza.png",
+        "price": 60.00,
+        "id": 1,
+        "alt": "Producto",
+        "section": "Star Wars",
+        "description": "Taza para bebidas frías y calientes"
       }
     ]
 }
