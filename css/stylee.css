@@ -1,31 +1,36 @@
-/*----------Variables----------*/
+/*          EJEMPLO DE CLASE    */
+/*--------------------Variables--------------------*/
 :root {
-    --bg-color: #EBEBEB;
+    --bg-color: #ebebeb;
     --input-placeholder: #d4d4d4;
     --input-bg: #efefef;
-    --texto-destaque: #FFFFFF;
-    --azul-destaque: #2A7AE4;
-    --bg-contacto: #EAF2FD;
-    --footer-contacto: #000000;
+    --texto-destaque: #FFFF;
+    --azul-destaque: #2a7ae4;
+    --bg-contacto: #Eaf2fd;
 }
 
-/*------Normalize----*/
+/*--------------------Normalize--------------------*/
 
 body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: "Raleway", sans-serif;
+    font-family: 'Releway', sans-serif;
     background-color: var(--bg-color);
 }
 
-/*------ Patrón del Proyecto-------*/
-
+/*--------------------Patrón del proyecto--------------------*/
 textarea:focus,
 input:focus {
     box-shadow: 0 0 0 0;
     border: 0 none;
     outline: 0;
+}
+
+input::placeholder,
+textarea::placeholder {
+    color: var(--input-placeholder);
+    padding: 2%;
 }
 
 a {
@@ -38,23 +43,23 @@ button {
     cursor: pointer;
 }
 
-/*----------Header General----------*/
+/*--------------------Header General--------------------*/
 
 header {
-    /*background-color: red;*/
     background-color: var(--texto-destaque);
     padding: 32.5px 155px;
 }
 
 nav {
+
     display: flex;
     align-items: center;
 }
 
-
-/*---------Divs del header-------*/
+/*--------------------Divs del Header--------------------*/
 
 .logo-busqueda {
+
     margin-left: 175px;
     width: 600px;
     display: flex;
@@ -63,6 +68,7 @@ nav {
 }
 
 .logo {
+
     display: flex;
     align-items: center;
 }
@@ -90,7 +96,7 @@ nav {
     padding: 1% 3%;
     border: none;
     background-color: var(--input-bg);
-    background-image: url("../img/busqueda.png");
+    background-image: url(assets/lupa.png);
     background-repeat: no-repeat;
     background-position: right;
     background-position-x: 320px;
@@ -115,17 +121,18 @@ nav {
     color: var(--texto-destaque);
 }
 
-/*----------Banner Promocional-------------*/
+/*--------------------Banner Promocional--------------------*/
 
 .destaque {
     height: 352px;
-    background-image: url("../img/banner.png");
-    background-size: 100Vw;
+    background-image: url(assets/banner.png);
+    background-size: 100vw;
     background-repeat: no-repeat;
     padding: 32px;
 }
 
 .banner {
+
     width: 750px;
     height: 320px;
     padding-left: 300px;
@@ -154,25 +161,27 @@ nav {
     width: 130px;
 }
 
-/*--------DIV en la Sección de Productos-------*/
+/*--------------------Sección de productos--------------------*/
 
-.general-productos {
+.geral-prods {
     display: flex;
     flex-direction: column;
     width: 60vw;
     margin: 0 auto;
 }
 
-/*-------DIvs en la SEcción de Productos-------*/
+/*-----------------Divs en la Sección de Productos-------------*/
 
-.producto-titulo {
+.prod-titulo {
+
     display: flex;
     justify-content: space-between;
 }
 
-.producto-titulo .titulo{
+.prod-titulo .titulo {
     font-size: 32px;
     font-weight: bold;
+
 }
 
 .mostrar-mas {
@@ -189,14 +198,15 @@ nav {
     margin-bottom: 50px;
 }
 
-/*--------Form Contacto-----------*/
+/*--------------------Form Contacto--------------------*/
 
 .contacto {
-    background-color: var(--bg-contacto);
+    background-color: var(--bg-contato);
     display: flex;
     height: 365px;
     justify-content: center;
-    padding: 64px;
+    padding: 64px 0;
+
 }
 
 .referencia {
@@ -205,7 +215,7 @@ nav {
     margin: 20px 0 0 0;
 }
 
-.referencia img{
+.referencia img {
     width: 60px;
     height: 40px;
 }
@@ -225,7 +235,7 @@ nav {
 }
 
 .links-utiles a {
-    color: var(--footer-contacto);
+    color: black;
     font-weight: normal;
 }
 
@@ -260,11 +270,12 @@ nav {
     width: 100%;
     position: absolute;
     color: var(--input-placeholder);
-    top: 80px; left: 9px;
+    top: 80px;
+    left: 9px;
     transition: 0.5s;
 }
 
-.input-nombre:focus + .label-nombre {
+.input-nombre:focus+.label-nombre {
     top: 64px;
     font-size: 14px;
     z-index: 2;
@@ -273,12 +284,13 @@ nav {
 }
 
 .form textarea {
-    width: 100px;
-    font-family: "Raleway", sans-serif;
+    width: 100%;
+    font-family: 'Relaway', sans-serif;
     border: transparent;
     color: var(--azul-destaque);
     margin-bottom: 20px;
 }
+
 .form button {
     background-color: var(--azul-destaque);
     border: none;
