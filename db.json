@@ -1,14 +1,49 @@
-
 {
-    "producto": [
-      {
-        "name": "Alura",
-        "imageUrl": "https://raw.githubusercontent.com/Miles-Arts/e-commerce/main/img/taza.png",
-        "price": 60.00,
-        "id": 1,
-        "alt": "Producto",
-        "section": "Star Wars",
-        "description": "Taza para bebidas frías y calientes"
-      }
-    ]
+  "producto": [
+    {
+      "name": "Alura",
+      "imageUrl": "https://raw.githubusercontent.com/Miles-Arts/e-commerce/main/img/taza.png",
+      "price": 60.00,
+      "id": 1,
+      "alt": "Producto",
+      "section": "Star Wars",
+      "description": "Taza para bebidas frías y calientes"
+    },
+    {
+      "name": "Alura",
+      "imageUrl": "https://raw.githubusercontent.com/Miles-Arts/e-commerce/main/img/taza.png",
+      "price": 60.00,
+      "id": 1,
+      "alt": "Producto",
+      "section": "Star Wars",
+      "description": "Taza para bebidas frías y calientes"
+    },
+    {
+      "name": "Alura",
+      "imageUrl": "https://raw.githubusercontent.com/Miles-Arts/e-commerce/main/img/taza.png",
+      "price": 60.00,
+      "id": 1,
+      "alt": "Producto",
+      "section": "Star Wars",
+      "description": "Taza para bebidas frías y calientes"
+    },
+    {
+      "name": "Alura",
+      "imageUrl": "https://raw.githubusercontent.com/Miles-Arts/e-commerce/main/img/taza.png",
+      "price": 60.00,
+      "id": 1,
+      "alt": "Producto",
+      "section": "Star Wars",
+      "description": "Taza para bebidas frías y calientes"
+    },
+    {
+      "name": "Alura",
+      "imageUrl": "https://raw.githubusercontent.com/Miles-Arts/e-commerce/main/img/taza.png",
+      "price": 60.00,
+      "id": 1,
+      "alt": "Producto",
+      "section": "Star Wars",
+      "description": "Taza para bebidas frías y calientes"
+    }
+  ]
 }
