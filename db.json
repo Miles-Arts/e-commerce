@@ -1,7 +1,7 @@
 {
   "producto": [
     {
-      "name": "Alura",
+      "name": "Juegos",
       "imageUrl": "https://raw.githubusercontent.com/Miles-Arts/e-commerce/main/img/taza.png",
       "price": 60.00,
       "id": 1,
@@ -10,40 +10,40 @@
       "description": "Taza para bebidas frías y calientes"
     },
     {
-      "name": "Alura",
-      "imageUrl": "https://raw.githubusercontent.com/Miles-Arts/e-commerce/main/img/taza.png",
-      "price": 60.00,
-      "id": 1,
+      "name": "Juegos",
+      "imageUrl": "https://raw.githubusercontent.com/Miles-Arts/e-commerce/main/img/control.png",
+      "price": 90.00,
+      "id": 2,
       "alt": "Producto",
-      "section": "Star Wars",
-      "description": "Taza para bebidas frías y calientes"
+      "section": "Control Xbox",
+      "description": "Control de Xbox última generación"
     },
     {
-      "name": "Alura",
-      "imageUrl": "https://raw.githubusercontent.com/Miles-Arts/e-commerce/main/img/taza.png",
-      "price": 60.00,
-      "id": 1,
-      "alt": "Producto",
-      "section": "Star Wars",
-      "description": "Taza para bebidas frías y calientes"
+      "name": "Juegos",
+      "imageUrl": "https://raw.githubusercontent.com/Miles-Arts/e-commerce/main/img/cabeza-dark.png",
+      "price": 70.00,
+      "id": 3,
+      "alt": "Juegos",
+      "section": "Lego Darth Vader",
+      "description": "Decorativo de Lego Star Wars"
     },
     {
-      "name": "Alura",
-      "imageUrl": "https://raw.githubusercontent.com/Miles-Arts/e-commerce/main/img/taza.png",
-      "price": 60.00,
-      "id": 1,
+      "name": "Juegos",
+      "imageUrl": "https://raw.githubusercontent.com/Miles-Arts/e-commerce/main/img/nintendo.png",
+      "price": 100.00,
+      "id": 4,
       "alt": "Producto",
-      "section": "Star Wars",
-      "description": "Taza para bebidas frías y calientes"
+      "section": "Nintendo Retro",
+      "description": "Consola de vídeo juego Nintendo Retro - Colección"
     },
     {
-      "name": "Alura",
-      "imageUrl": "https://raw.githubusercontent.com/Miles-Arts/e-commerce/main/img/taza.png",
-      "price": 60.00,
-      "id": 1,
-      "alt": "Producto",
-      "section": "Star Wars",
-      "description": "Taza para bebidas frías y calientes"
+      "name": "Juegos",
+      "imageUrl": "https://raw.githubusercontent.com/Miles-Arts/e-commerce/main/img/nino-jugando.png",
+      "price": 65.00,
+      "id": 5,
+      "alt": "Juegos",
+      "section": "Camiseta Nintendo",
+      "description": "Camiseta Retro de control Nintendo NES"
     }
   ]
 }
